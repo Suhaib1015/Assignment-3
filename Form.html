@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Form.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <a href="./Main.html">
+      <img src="./Back.jpg" alt="Back Button" class="Button" />
+    </a>
+    <img src="./SMIT LOGO.jpg" alt="smit logo" class="logo" />
+    <h2 id="h2">STUDENT REGISTRATION FORM</h2>
+    <label for="" class="text">
+      FIRST NAME
+      <input id="inpt1" type="text" placeholder="Enter the First Name" />
+      (max 30 characters a-z and A-Z)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      LAST NAME
+      <input id="inpt2" type="text" placeholder="Enter the Last Name" />
+      (max 30 characters a-z and A-Z)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      DATE OF BIRTH
+      <input id="inpt3" type="date" />
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      EMAIL ID
+      <input id="inpt4" type="email" placeholder="Enter the Email Address" />
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      MOBILE NUMBER
+      <input id="inpt5" type="number" placeholder="Enter the Mobile Number" />
+      (10 Digits Number)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      GENDER
+      <label for="" id="inpt6">
+        Male
+        <input type="radio" />
+        Female
+        <input type="radio" />
+      </label>
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      ADDRESS
+      <textarea name="" id="inpt7"></textarea>
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      CITY
+      <input type="text" name="" id="inpt8" placeholder="Enter the City Name" />
+      (max 30 characters a-z and A-Z)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      PIN CODE
+      <input id="inpt9" type="number" placeholder="Enter the PIN CODE" />
+      (6 Digits Number)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      STATE
+      <input
+        type="text"
+        name=""
+        id="inpt10"
+        placeholder="Enter the State Name"
+      />
+      (max 30 characters a-z and A-Z)
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      COUNTRY
+      <input
+        type="text"
+        name=""
+        id="inpt11"
+        placeholder="Enter the Country Name"
+      />
+    </label>
+    <br />
+    <br />
+    <label for="" class="text">
+      HOBBIES
+      <label for="" id="inpt6">
+        Dancing
+        <input type="checkbox" />
+        Singing
+        <input type="checkbox" />
+        Drawing
+        <input type="checkbox" />
+        Sketching
+        <input type="checkbox" />
+        <br />
+        <label for="" id="inpt12">
+          Others
+          <input type="checkbox" />
+          <input type="text" />
+        </label>
+      </label>
+    </label>
+    <br />
+    <br />
+    <label class="text"> QUALIFICATION </label>
+    <label id="clh1"> <b>SI.No. Examination </b> </label>
+    <label id="clh2"> <b>Board </b></label>
+    <label id="clh3"> <b>Percentage</b> </label>
+    <label id="clh4"> <b>Year of Passing </b></label>
+    <br>
+    <label class="number">
+      1
+      <label class="t2">  
+        Class X
+        <input class="it2" type="text">
+        <input  type="text">
+        <input  type="text">
+      </label>
+    <label class="number">
+      2
+      <label class="t2">  
+        Class XII
+        <input class="it3" type="text">
+        <input  type="text">
+        <input  type="text">
+      </label>
+    <label class="number">
+      3
+      <label class="t2">  
+         Graduation
+        <input class="it4" type="text">
+        <input  type="text">
+        <input  type="text">
+      </label>
+    <label class="number">
+      4
+      <label class="t2">  
+        Masters
+        <input class="it5" type="text">
+        <input  type="text">
+        <input  type="text">
+      </label>
+    </label>
+    <br>
+    <label class="t3">
+      (10 char max)
+    </label>
+    <label class="t4">
+      upto 2 decimals
+    </label>
+    <br>
+    <br>
+    <label class="text">
+      COURSES
+      <br>
+      <label class="text">
+        APPLIED FOR
+      </label>
+      <select name="COURSES" id="s1">
+        <option disabled selected>Select any course</option>
+        <option value="bca">BCA</option>
+        <option value="b.a">B.A</option>
+        <option value="b.sc">B.Sc</option>
+        <option value="b.cm">B.Com</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label class="text">
+      Upload your pic
+      <br>
+      <label class="text">
+        (only .png,.jpg,.jpeg formats allow)	
+      </label>
+      <input id="s2" type="file">
+    </label>
+    <br>
+    <br>
+    <input id="sbmt" type="submit">
+    <input type="reset">
+  </body>
+</html>

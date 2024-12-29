@@ -1,0 +1,20 @@
+.logo {
+    display: block;
+    width: 200px;
+    margin-left: 565px;
+  }
+#h2{
+    margin-left: 520px;
+}
+.text{
+    margin-left: 520px;
+}
+#btn{
+    margin-left: 580px;
+}
+#email{
+    margin-left: 45px;
+}
+#password{
+    margin-left: 22px
+}
